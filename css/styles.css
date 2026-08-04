@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: beige;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+    background-color:antiquewhite;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+nav h1 {
+    font-size: 30px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    font-size: 15px;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.hero, .stats, .quotes {
+    background-color: azure;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.hero {
+    display: flex;
+    gap: 40px;
+    border-radius: 20px;
+    margin: 2rem;
+    padding: 1.5rem;
+}
+
+.hero h3 {
+    font-size: 30px;
+}
+
+.hero p {
+    text-align: justify;
+    font-size: 15px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 20px;
+    margin: 2rem;
+    padding: 0.5rem;
+}
+
+.stats h3, .stats p {
+    margin: 1rem;
+}
+
+.quotes {
+    font-style: italic;
+    text-align: justify;
+    font-size: 16px;
+    border-radius: 20px;
+    margin: 2rem;
+    padding: 1.5rem;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkgray;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
